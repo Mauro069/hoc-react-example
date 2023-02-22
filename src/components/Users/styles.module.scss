@@ -1,0 +1,35 @@
+.list {
+  width: 100%;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.userCard {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  gap: 5px;
+
+  h3 {
+    font-weight: 900;
+  }
+
+  .bottom {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    span {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}

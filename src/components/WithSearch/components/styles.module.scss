@@ -1,0 +1,26 @@
+.searchBar {
+  margin-top: 10px;
+  margin-left: 1.5rem;
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: .5rem;
+
+  input {
+    padding: 0.8rem 0.5rem;
+    height: 100%;
+    width: 85%;
+    background: transparent;
+    border: none;
+  }
+
+  .icon {
+    cursor: pointer;
+    padding: 0.2rem .4rem;
+    border-radius: 5px;
+    background: #c6c3e0;
+  }
+}
